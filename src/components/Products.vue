@@ -51,10 +51,8 @@ export default {
 		try {
 			const res = await axios.get(`${BASE_URL}`);
 			this.items = res.data;
-			console.log(this.items);
 			const resCat = await axios.get(`${BASE_URL_CAT}`);
 			this.itemsCategory = resCat.data;
-			console.log(this.itemCategory);
 		} catch (error) {
 			console.log(error);
 		}
@@ -73,12 +71,12 @@ export default {
 		},
 
 		removeItem(id) {
-			axios.delete(`${BASE_URL}/items/${id}`);
+			axios.delete(`${BASE_URL}/${id}`);
 			this.items = this.items.filter((item) => item.id !== id);
 		},
 		
 		async addItem() {
-			const res = await axios.post(`${BASE_URL}/items`, {
+			const res = await axios.post(`${BASE_URL}/`, {
 				name: this.itemName,
 				categ: this.itemCategory,
 			});

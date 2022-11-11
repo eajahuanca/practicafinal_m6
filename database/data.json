@@ -1,38 +1,43 @@
 {
-    "products": [
-        {
-            "id": 6,
-            "name": "GALLETAS ALFAFOG",
-            "categ": "GOLOSINAS"
-        },
-        {
-            "name": "DULCES",
-            "id": 8,
-            "categ": "GOLOSINAS"
-        },
-        {
-            "name": "CHOCOLATES",
-            "id": 9,
-            "categ": "CARAMELOS"
-        },
-        {
-            "name": "MALTEADA",
-            "id": 10,
-            "categ": "CARAMELOS"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "categ": "GOLOSINAS"
-        },
-        {
-            "id": 2,
-            "categ": "CARAMELOS"
-        },
-        {
-            "id": 3,
-            "categ": "CHOCOLATES"
-        }
-    ]
+  "products": [
+    {
+      "id": 6,
+      "name": "GALLETAS ALFAFOG",
+      "categ": "GOLOSINAS"
+    },
+    {
+      "name": "DULCES",
+      "id": 8,
+      "categ": "GOLOSINAS"
+    },
+    {
+      "name": "CHOCOLATES",
+      "id": 9,
+      "categ": "CARAMELOS"
+    },
+    {
+      "id": 15,
+      "name": "CHOCOLAIC",
+      "categ": "CHOCOLATES"
+    },
+    {
+      "name": "CHOCAPICS",
+      "categ": "CHOCOLATES",
+      "id": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categ": "GOLOSINAS"
+    },
+    {
+      "id": 2,
+      "categ": "CARAMELOS"
+    },
+    {
+      "id": 3,
+      "categ": "CHOCOLATES"
+    }
+  ]
 }
